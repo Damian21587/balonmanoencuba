@@ -1,0 +1,46 @@
+<?php
+
+namespace App\Http\Requests;
+
+use Illuminate\Foundation\Http\FormRequest;
+use App\Models\About;
+
+class CreateAboutRequest extends FormRequest
+{
+
+    /**
+     * Determine if the user is authorized to make this request.
+     *
+     * @return bool
+     */
+    public function authorize()
+    {
+        return true;
+    }
+
+    /**
+     * Get the validation rules that apply to the request.
+     *
+     * @return array
+     */
+    public function rules()
+    {
+        $rules = [
+            'image' => 'required|mimes:jpg,png,gif,jpeg|min:1',
+            'description_es' => 'required',
+            'description_en' => 'nullable'
+        ];
+
+        return $rules;
+    }
+
+    public function attributes()
+    {
+        return [
+            'image' => 'Imagen',
+            'description_es' => 'Descripción',
+            'description_en' => 'Descripción',
+
+        ];
+    }
+}

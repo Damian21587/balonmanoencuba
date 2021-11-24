@@ -1,0 +1,80 @@
+@font-face {
+    font-family: 'Lato-Bold';
+    src: url("../font/Lato-Bold.ttf");
+}
+
+@font-face {
+    font-family: 'Lato-Hairline';
+    src: url("../font/Lato-Hairline.ttf");
+}
+
+@font-face {
+    font-family: 'Lato-Regular';
+    src: url("../font/Lato-Regular.ttf");
+}
+
+@font-face {
+    font-family: 'Times-New-Roman';
+    src: url("../font/times-new-roman-14.ttf");
+}
+@font-face {
+    font-family: 'Dosis-ExtraLight';
+    src: url("../font/Dosis-ExtraLight.ttf");
+}
+@font-face {
+    font-family: 'Dosis-Regular';
+    src: url("../font/Dosis-Regular.ttf");
+}
+
+@font-face {
+    font-family: 'Roboto-Slab';
+    src: url("../font/RobotoSlab-Regular.ttf");
+}
+
+.lato-hairline{
+    font-family: 'Lato-Hairline';
+}
+.lato-bold{
+    font-family: 'Lato-Bold';
+}
+.lato-regular{
+    font-family: 'Lato-Regular';
+}
+.time-new-roman{
+    font-family: 'Times-New-Roman';
+}
+.dosis-extralight{
+    font-family: 'Dosis-ExtraLight';
+}
+.dosis-regular{
+    font-family: 'Dosis-Regular';
+}
+.reboto-regular{
+    font-family: 'Roboto-Slab';
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+.back-to-top {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    width: 64px;
+    height: 64px;
+    z-index: 9999;
+    cursor: pointer;
+    text-decoration: none;
+    transition: opacity 0.2s ease-out;
+    border: 1px solid #ffffff;
+    border-radius: 90rem;
+}
+
+.back-to-top:hover {
+    opacity: 0.7;
+}
+
+.back-to-top i{
+    padding-top: 0.50rem;
+}
