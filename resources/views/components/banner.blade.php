@@ -11,7 +11,7 @@
             </div>
         </div>
     </div>
-   <img alt="Snowy mountain lake" class="object-cover min-w-full h-full" src="{{asset('../image/bg.jpg')}}">
+   <img alt="Snowy mountain lake" class="object-cover min-w-full h-full" src="{{asset('../image/banner5.jpg')}}">
 </div>
 {{--<div class="relative overflow-hidden bg-cover bg-center h-auto text-white py-32 px-10 object-fill" style="background-image: url('../image/bg.jpg')">
     <div class="container mx-auto">
