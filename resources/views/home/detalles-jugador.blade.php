@@ -11,13 +11,14 @@
                 <h2 class="text-2xl leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto text-gray-300 uppercase time-new-roman">Valero Rivera</h2>
             </div>
         </div>
+
         <div class="flex flex-col gap-10 px-32 pt-15 pb-10">
             <div class="bg-white shadow overflow-hidden rounded-lg sm:rounded-lg">
                 <div class="bg-center bg-cover bg-no-repeat w-auto h-72 object-cover" style="background-image: url({{asset('../image/bannerlogin.jpg')}})">
                     <div class="container mx-auto">
                         <div class="flex flex-col gap-10 px-10 py-32 ">
                             {{--<div class="bg-gray-300 rounded-full self-center"></div>--}}
-                            <img class="object-cover rounded-full h-40 w-40 relative absolute border-4 border-white" style="top: 80px" src="{{asset('/storage/'.$player->image->url)}}">
+                            <img class="object-cover rounded-full h-40 w-40 relative absolute border-4 border-white" style="top: 80px" src="{{asset('/storage/'.$player->image->url)}}" alt="Logo">
                         </div>
                     </div>
                 </div>
