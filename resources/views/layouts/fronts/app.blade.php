@@ -14,6 +14,7 @@
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
     <link href="{{asset('lib/mdi/iconfont2/css/materialdesignicons.min.css')}}" rel="stylesheet">
+    <link rel="icon" href="{{asset('image/logo/logo 4.jpg')}}" sizes="32x32">
 </head>
 <body>
 <a href="#" class="btn btn-sm back-to-top bg-blue-900"
