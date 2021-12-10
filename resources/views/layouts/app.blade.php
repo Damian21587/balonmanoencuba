@@ -37,6 +37,7 @@
     <!-- dropzonejs -->
     <link rel="stylesheet" href="{{asset('adminLTE/plugins/dropzone/min/dropzone.min.css') }}">
     <link rel="stylesheet" href="{{asset('css/styles-admin.css')}}">
+    <link rel="icon" href="{{asset('image/logo/logo 4.jpg')}}" sizes="32x32">
 
     {{--<link rel="stylesheet"
           href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datetimepicker/4.17.47/css/bootstrap-datetimepicker.min.css"

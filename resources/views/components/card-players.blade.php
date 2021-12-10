@@ -1,12 +1,12 @@
 <div class="container mx-auto bg-gray-50">
-    <div class="flex flex-col gap-10 text-center px-32 pt-24 pb-10">
+    <div class="flex flex-col gap-10 text-center px-4 sm:px-32 pt-24 pb-10">
         <div class="text-center mb-20">
-            <h1 class="sm:text-7xl text-2xl text-gray-600 uppercase lato-hairline mb-4">{{__('home.lbJugadores')}}</h1>
-            <p class="text-2xl leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto text-gray-300 uppercase time-new-roman">{{__('home.lbJugadoresSlogan')}}</p>
+            <h1 class="sm:text-7xl text-5xl text-gray-600 uppercase lato-hairline mb-4">{{__('home.lbJugadores')}}</h1>
+            <p class="text-xl leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto text-gray-300 uppercase time-new-roman">{{__('home.lbJugadoresSlogan')}}</p>
             <div class="flex mt-6 justify-center mt-6 mb-4">
                 <div class="w-20 h-1 rounded-full bg-indigo-500 inline-flex"></div>
             </div>
-            <h2 class="text-2xl leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto text-gray-300 uppercase time-new-roman">Nikola Karabatic</h2>
+            <h2 class="text-xl leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto text-gray-300 uppercase time-new-roman">Nikola Karabatic</h2>
         </div>
         {{--<div>
             <h1 class="sm:text-center text-gray-600 text-7xl uppercase lato-hairline pb-3">{{__('home.lbJugadores')}}</h1>

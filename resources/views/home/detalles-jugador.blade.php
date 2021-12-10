@@ -1,18 +1,18 @@
 @extends('layouts.fronts.app')
 @section('content')
     <div class="container mx-auto bg-gray-50">
-        <div class="flex flex-col gap-10 text-center px-32 pt-24 pb-10">
+        <div class="flex flex-col gap-10 text-center sm:px-32 pt-24 pb-10">
             <div class="text-center mb-20 pt-24">
-                <h1 class="sm:text-7xl text-2xl text-gray-600 uppercase lato-hairline mb-4">{{__('home.lbdetallesJugador')}}</h1>
-                <p class="text-2xl leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto text-gray-300 uppercase time-new-roman">{{__('home.lbdetalleJugadorSlogan')}}</p>
+                <h1 class="sm:text-7xl text-5xl text-gray-600 uppercase lato-hairline mb-4">{{__('home.lbdetallesJugador')}}</h1>
+                <p class="text-xl leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto text-gray-300 uppercase time-new-roman">{{__('home.lbdetalleJugadorSlogan')}}</p>
                 <div class="flex mt-6 justify-center mt-6 mb-4">
                     <div class="w-20 h-1 rounded-full bg-indigo-500 inline-flex"></div>
                 </div>
-                <h2 class="text-2xl leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto text-gray-300 uppercase time-new-roman">Valero Rivera</h2>
+                <h2 class="text-xl leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto text-gray-300 uppercase time-new-roman">Valero Rivera</h2>
             </div>
         </div>
 
-        <div class="flex flex-col gap-10 px-32 pt-15 pb-10">
+        <div class="flex flex-col gap-10 sm:px-32 pt-15 pb-10 p-5 sm:p-0">
             <div class="bg-white shadow overflow-hidden rounded-lg sm:rounded-lg">
                 <div class="bg-center bg-cover bg-no-repeat w-auto h-72 object-cover" style="background-image: url({{asset('../image/bannerlogin.jpg')}})">
                     <div class="container mx-auto">

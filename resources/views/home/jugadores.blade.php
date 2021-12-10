@@ -22,17 +22,17 @@
 <div class="bg-cover bg-center h-auto text-white py-32 px-10 object-fill relative bg-fixed bg-cover bg-no-repeat"
      style="background-image: url('../image/bgclass.jpg')">
     <div class="container mx-auto">
-        <div class="flex flex-col gap-10 text-center px-32">
+        <div class="flex flex-col gap-10 text-center px-4 sm:px-32">
             <div class="text-center mb-20">
-                <h1 class="sm:text-7xl text-2xl uppercase time-new-roman mb-4">{{__('home.lbContadorVisitas')}}</h1>
-                <p class="text-2xl leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto text-gray-300 uppercase time-new-roman">{{__('home.lbContadorVisitasSlogan')}}</p>
+                <h1 class="sm:text-7xl text-5xl uppercase time-new-roman mb-4">{{__('home.lbContadorVisitas')}}</h1>
+                <p class="text-xl leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto text-gray-300 uppercase time-new-roman">{{__('home.lbContadorVisitasSlogan')}}</p>
                 <div class="flex mt-6 justify-center">
                     <div class="w-20 h-1 rounded-full bg-indigo-500 inline-flex"></div>
                 </div>
             </div>
             <div class="flex flex-row gap-3 self-center justify-center">
                 <div  class="h-full bg-gray-400 bg-opacity-75 px-1 pt-4 rounded-lg overflow-hidden text-center relative">
-                    <h1 class="text-white sm:text-7xl text-2xl uppercase time-new-roman pb-3">{{ number_format($cantidad_visitas, 2, '.', ',')}}</h1>
+                    <h1 class="text-white sm:text-7xl text-5xl uppercase time-new-roman pb-3">{{ number_format($cantidad_visitas, 2, '.', ',')}}</h1>
                 </div>
             </div>
         </div>

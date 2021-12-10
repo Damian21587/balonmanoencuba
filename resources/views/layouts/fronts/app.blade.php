@@ -113,13 +113,13 @@
         });
     </script>
 </nav>
-<div class="content-wrapper">
+<div class="container mx-auto">
     <section class="content">
         @yield('content')
     </section>
 </div>
 <footer class="w-full">
-    <div class="container mx-auto px-20 bg-blue-900">
+    <div class="container mx-auto sm:px-32 bg-blue-900">
         <div class="text-center py-5 pt-10">
             <h1 class="text-5xl text-white uppercase lato-hairline">{{__('home.lbcontactos')}}</h1>
         </div>

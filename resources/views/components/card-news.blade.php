@@ -1,14 +1,14 @@
 <div class="container mx-auto bg-gray-50">
-    <div class="flex flex-col gap-10 text-center px-32 pt-24 pb-10">
+    <div class="flex flex-col gap-10 text-center sm:px-32 pt-24 pb-10">
         <div class="text-center mb-20">
-            <h1 class="sm:text-7xl text-2xl text-gray-600 uppercase lato-hairline mb-4">{{__('home.lbnoticias')}}</h1>
-            <p class="text-2xl leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto text-gray-300 uppercase time-new-roman">{{__('home.lbnoticiasSlogan')}}</p>
+            <h1 class="sm:text-7xl text-5xl text-gray-600 uppercase lato-hairline mb-4">{{__('home.lbnoticias')}}</h1>
+            <p class="text-xl leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto text-gray-300 uppercase time-new-roman">{{__('home.lbnoticiasSlogan')}}</p>
             <div class="flex mt-6 justify-center mt-6 mb-4">
                 <div class="w-20 h-1 rounded-full bg-indigo-500 inline-flex"></div>
             </div>
-            <h2 class="text-2xl leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto text-gray-300 uppercase time-new-roman">Padre de ELi Pinedo</h2>
+            <h2 class="text-xl leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto text-gray-300 uppercase time-new-roman">Padre de ELi Pinedo</h2>
         </div>
-        <div class="flex flex-wrap -m-4">
+        <div class="flex flex-wrap -m-1">
             @foreach($news as $new)
                 <div class="p-4 md:w-1/3">
                     <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden  shadow-lg transform transition duration-1000  hover:scale-110 opacity-75 hover:opacity-100">

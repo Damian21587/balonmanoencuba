@@ -1,20 +1,24 @@
 @extends('layouts.fronts.app')
 @section('content')
     <div class="container mx-auto bg-gray-50">
-        <div class="flex flex-col gap-10 text-center px-32 pt-24 pb-10">
+        <div class="flex flex-col gap-10 text-center sm:px-32 pt-24 pb-10">
             <div class="text-center mb-20">
-                <h1 class="sm:text-7xl text-2xl text-gray-600 uppercase lato-hairline mb-4">{{__('home.lbQuieneSomos')}}</h1>
-                <p class="text-2xl leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto text-gray-300 uppercase time-new-roman">{{__('home.lbQuieneSomosSlogan')}}</p>
+                <h1 class="sm:text-7xl text-5xl text-gray-600 uppercase lato-hairline mb-4">{{__('home.lbQuieneSomos')}}</h1>
+                <p class="text-xl leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto text-gray-300 uppercase time-new-roman">{{__('home.lbQuieneSomosSlogan')}}</p>
                 <div class="flex mt-6 justify-center mt-6 mb-4">
                     <div class="w-20 h-1 rounded-full bg-indigo-500 inline-flex"></div>
                 </div>
-                <h2 class="text-2xl leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto text-gray-300 uppercase time-new-roman">Emil Zátopek</h2>
+                <h2 class="text-xl leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto text-gray-300 uppercase time-new-roman">Emil Zátopek</h2>
             </div>
 
             <div class="lg:w-4/6 mx-auto">
+
                 @if($quienes_somos!=null)
-                    <div class="rounded-lg h-64 overflow-hidden">
-                        <img class="object-cover object-center h-full w-full"
+                    {{--<div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
+                        <img class="object-cover object-center rounded" alt="hero" src="{{asset('/storage/'.$quienes_somos->image->url)}}">
+                    </div>--}}
+                    <div class=" h-64 overflow-hidden">
+                        <img class="object-cover object-center h-full w-full rounded p-10 sm:p-0"
                              src="{{asset('/storage/'.$quienes_somos->image->url)}}">
                     </div>
                     <div class="flex flex-col sm:flex-row mt-10">

@@ -1,7 +1,7 @@
 <div class="relative bg-cover bg-center h-auto overflow-hidden object-fill">
     <div class="absolute inset-0 z-10 text-white text-center flex flex-col items-center justify-center">
         <div class="container mx-auto">
-            <div class="text-center mb-20 pt-10">
+            <div class="text-center mb-20 pt-10 sm:pt-10">
                 <h1 class="lg:text-7xl text-sm uppercase lato-hairline mb-4">{{__('home.lbbannerSloganArriba')}}</h1>
                 <p class="lg:text-2xl text-sm leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto text-white uppercase dosis-extralight dosis-regular">{{__('home.lbbannerSlogan')}}</p>
                 <div class="flex mt-6 justify-center mt-6 mb-4">
